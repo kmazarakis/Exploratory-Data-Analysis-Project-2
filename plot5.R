@@ -14,5 +14,5 @@ data5 <- with(NEIVehicleBaltimore, tapply(Emissions, year, sum))
 
 ##Plot the graph
 barplot(data5, names.arg = names(data5), main = "Total Vehicle Related Emissions per Year in Baltimore", xlab = "Years", ylab = "Emissions")
-dev.copy(png, "plot4.png")
+dev.copy(png, "plot5.png")
 dev.off()
